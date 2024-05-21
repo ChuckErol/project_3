@@ -1,0 +1,201 @@
+﻿state_name,Metric,2020,2021
+Alabama,ef_overall,6.47,6.40
+Alaska,ef_overall,5.25,5.42
+Arizona,ef_overall,5.97,5.99
+Arkansas,ef_overall,6.27,6.01
+California,ef_overall,4.61,4.27
+Colorado,ef_overall,6.57,6.60
+Connecticut,ef_overall,6.22,6.18
+Delaware,ef_overall,5.23,5.06
+Florida,ef_overall,7.97,7.80
+Georgia,ef_overall,7.33,7.31
+Hawaii,ef_overall,4.66,4.58
+Idaho,ef_overall,7.31,7.31
+Illinois,ef_overall,5.85,5.70
+Indiana,ef_overall,7.12,7.25
+Iowa,ef_overall,6.16,6.14
+Kansas,ef_overall,7.00,6.79
+Kentucky,ef_overall,5.68,5.87
+Louisiana,ef_overall,6.49,6.61
+Maine,ef_overall,5.14,5.32
+Maryland,ef_overall,6.07,5.61
+Massachusetts,ef_overall,6.43,6.12
+Michigan,ef_overall,5.94,6.00
+Minnesota,ef_overall,5.43,5.29
+Mississippi,ef_overall,5.58,5.70
+Missouri,ef_overall,6.90,6.69
+Montana,ef_overall,6.69,6.55
+Nebraska,ef_overall,6.80,6.85
+Nevada,ef_overall,6.46,6.18
+New Hampshire,ef_overall,7.92,7.96
+New Jersey,ef_overall,5.46,5.46
+New Mexico,ef_overall,5.19,4.98
+New York,ef_overall,4.26,4.09
+North Carolina,ef_overall,7.31,7.31
+North Dakota,ef_overall,7.33,7.14
+Ohio,ef_overall,5.71,5.89
+Oklahoma,ef_overall,7.07,6.94
+Oregon,ef_overall,4.94,4.56
+Pennsylvania,ef_overall,6.60,6.67
+Rhode Island,ef_overall,5.32,5.31
+South Carolina,ef_overall,6.47,6.62
+South Dakota,ef_overall,7.73,7.59
+Tennessee,ef_overall,7.85,7.73
+Texas,ef_overall,7.67,7.64
+Utah,ef_overall,7.07,6.67
+Vermont,ef_overall,5.03,4.27
+Virginia,ef_overall,7.50,7.13
+Washington,ef_overall,6.03,6.01
+West Virginia,ef_overall,5.19,5.34
+Wisconsin,ef_overall,6.47,6.49
+Wyoming,ef_overall,6.75,6.63
+Alabama,ef_government_spending,5.67,5.28
+Alaska,ef_government_spending,2.81,2.90
+Arizona,ef_government_spending,5.22,5.21
+Arkansas,ef_government_spending,6.78,6.09
+California,ef_government_spending,3.65,3.57
+Colorado,ef_government_spending,6.98,7.03
+Connecticut,ef_government_spending,7.41,7.48
+Delaware,ef_government_spending,4.11,3.92
+Florida,ef_government_spending,8.58,8.33
+Georgia,ef_government_spending,7.12,6.95
+Hawaii,ef_government_spending,5.92,5.28
+Idaho,ef_government_spending,7.97,8.10
+Illinois,ef_government_spending,5.95,5.92
+Indiana,ef_government_spending,7.26,7.77
+Iowa,ef_government_spending,5.64,5.51
+Kansas,ef_government_spending,7.98,7.73
+Kentucky,ef_government_spending,3.67,4.11
+Louisiana,ef_government_spending,5.09,5.30
+Maine,ef_government_spending,6.65,6.81
+Maryland,ef_government_spending,6.08,4.63
+Massachusetts,ef_government_spending,6.69,6.14
+Michigan,ef_government_spending,5.43,5.67
+Minnesota,ef_government_spending,5.41,5.21
+Mississippi,ef_government_spending,4.45,4.77
+Missouri,ef_government_spending,7.12,7.20
+Montana,ef_government_spending,7.08,6.96
+Nebraska,ef_government_spending,8.33,8.25
+Nevada,ef_government_spending,6.08,5.18
+New Hampshire,ef_government_spending,8.55,8.74
+New Jersey,ef_government_spending,6.08,6.29
+New Mexico,ef_government_spending,3.98,3.42
+New York,ef_government_spending,4.69,4.48
+North Carolina,ef_government_spending,7.12,7.10
+North Dakota,ef_government_spending,6.92,6.33
+Ohio,ef_government_spending,4.48,4.79
+Oklahoma,ef_government_spending,7.17,6.69
+Oregon,ef_government_spending,4.59,4.30
+Pennsylvania,ef_government_spending,5.98,6.37
+Rhode Island,ef_government_spending,5.16,4.87
+South Carolina,ef_government_spending,5.36,5.51
+South Dakota,ef_government_spending,8.26,7.62
+Tennessee,ef_government_spending,7.34,7.15
+Texas,ef_government_spending,7.87,7.26
+Utah,ef_government_spending,6.62,6.11
+Vermont,ef_government_spending,4.92,3.52
+Virginia,ef_government_spending,7.77,7.76
+Washington,ef_government_spending,7.00,6.93
+West Virginia,ef_government_spending,4.50,4.82
+Wisconsin,ef_government_spending,6.19,6.09
+Wyoming,ef_government_spending,5.63,4.96
+Alabama,ef_taxation,7.15,6.95
+Alaska,ef_taxation,8.22,8.42
+Arizona,ef_taxation,7.18,7.00
+Arkansas,ef_taxation,6.35,6.33
+California,ef_taxation,4.70,3.86
+Colorado,ef_taxation,6.44,6.26
+Connecticut,ef_taxation,5.30,5.04
+Delaware,ef_taxation,5.01,4.57
+Florida,ef_taxation,7.83,7.87
+Georgia,ef_taxation,6.95,6.83
+Hawaii,ef_taxation,3.82,3.80
+Idaho,ef_taxation,6.43,6.14
+Illinois,ef_taxation,5.48,5.24
+Indiana,ef_taxation,6.73,6.54
+Iowa,ef_taxation,5.70,5.62
+Kansas,ef_taxation,6.14,5.81
+Kentucky,ef_taxation,6.47,6.45
+Louisiana,ef_taxation,6.97,6.87
+Maine,ef_taxation,4.45,4.44
+Maryland,ef_taxation,6.01,5.97
+Massachusetts,ef_taxation,6.02,5.80
+Michigan,ef_taxation,6.97,6.62
+Minnesota,ef_taxation,5.11,4.79
+Mississippi,ef_taxation,6.23,5.94
+Missouri,ef_taxation,7.36,6.93
+Montana,ef_taxation,6.78,6.47
+Nebraska,ef_taxation,5.48,5.30
+Nevada,ef_taxation,7.07,7.22
+New Hampshire,ef_taxation,7.39,7.43
+New Jersey,ef_taxation,4.35,4.33
+New Mexico,ef_taxation,6.33,6.90
+New York,ef_taxation,3.45,3.19
+North Carolina,ef_taxation,6.88,6.65
+North Dakota,ef_taxation,7.29,7.44
+Ohio,ef_taxation,6.49,6.47
+Oklahoma,ef_taxation,7.05,6.96
+Oregon,ef_taxation,5.74,5.13
+Pennsylvania,ef_taxation,6.39,6.14
+Rhode Island,ef_taxation,5.85,5.68
+South Carolina,ef_taxation,6.42,6.37
+South Dakota,ef_taxation,7.63,7.74
+Tennessee,ef_taxation,8.11,7.89
+Texas,ef_taxation,7.02,7.27
+Utah,ef_taxation,6.68,6.04
+Vermont,ef_taxation,4.71,4.17
+Virginia,ef_taxation,6.34,6.18
+Washington,ef_taxation,6.73,6.70
+West Virginia,ef_taxation,6.09,5.98
+Wisconsin,ef_taxation,5.82,5.81
+Wyoming,ef_taxation,7.61,7.86
+Alabama,ef_regulation,6.60,6.96
+Alaska,ef_regulation,4.71,4.95
+Arizona,ef_regulation,5.51,5.76
+Arkansas,ef_regulation,5.68,5.61
+California,ef_regulation,5.49,5.38
+Colorado,ef_regulation,6.29,6.51
+Connecticut,ef_regulation,5.95,6.01
+Delaware,ef_regulation,6.58,6.68
+Florida,ef_regulation,7.51,7.21
+Georgia,ef_regulation,7.92,8.16
+Hawaii,ef_regulation,4.25,4.67
+Idaho,ef_regulation,7.52,7.70
+Illinois,ef_regulation,6.13,5.93
+Indiana,ef_regulation,7.36,7.44
+Iowa,ef_regulation,7.13,7.29
+Kansas,ef_regulation,6.87,6.84
+Kentucky,ef_regulation,6.90,7.05
+Louisiana,ef_regulation,7.41,7.66
+Maine,ef_regulation,4.31,4.72
+Maryland,ef_regulation,6.12,6.23
+Massachusetts,ef_regulation,6.57,6.42
+Michigan,ef_regulation,5.42,5.73
+Minnesota,ef_regulation,5.78,5.87
+Mississippi,ef_regulation,6.06,6.39
+Missouri,ef_regulation,6.22,5.94
+Montana,ef_regulation,6.20,6.21
+Nebraska,ef_regulation,6.58,7.00
+Nevada,ef_regulation,6.22,6.15
+New Hampshire,ef_regulation,7.83,7.70
+New Jersey,ef_regulation,5.95,5.76
+New Mexico,ef_regulation,5.24,4.63
+New York,ef_regulation,4.66,4.61
+North Carolina,ef_regulation,7.94,8.18
+North Dakota,ef_regulation,7.77,7.63
+Ohio,ef_regulation,6.17,6.41
+Oklahoma,ef_regulation,7.01,7.18
+Oregon,ef_regulation,4.50,4.23
+Pennsylvania,ef_regulation,7.43,7.50
+Rhode Island,ef_regulation,4.94,5.37
+South Carolina,ef_regulation,7.64,7.98
+South Dakota,ef_regulation,7.31,7.41
+Tennessee,ef_regulation,8.10,8.14
+Texas,ef_regulation,8.12,8.39
+Utah,ef_regulation,7.92,7.87
+Vermont,ef_regulation,5.47,5.12
+Virginia,ef_regulation,8.41,7.47
+Washington,ef_regulation,4.36,4.40
+West Virginia,ef_regulation,4.97,5.24
+Wisconsin,ef_regulation,7.39,7.58
+Wyoming,ef_regulation,7.01,7.08
