@@ -1,0 +1,39 @@
+/* Reset default padding and margins for all elements */
+body, h1, h2, h3, p, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+/* Full height for map, body, and html elements */
+#map, body, html {
+  height: 100%;
+}
+
+/* Styling for the map legend */
+.legend .info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white; /* Ensures solid white background */
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  line-height: 24px;
+  color: #555;
+  opacity: 1; /* Ensure the legend is fully opaque */
+}
+
+/* Style for the color boxes in the legend */
+.legend .info i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 1; /* Ensure color boxes are fully visible */
+}
+
+/* Additional styling for clear visual separation of items in the legend */
+.legend .info div {
+  clear: both;
+  display: block;
+  padding-top: 0px; /* Adds space between lines for clarity */
+}
+

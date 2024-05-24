@@ -1,27 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>USGS Earthquake Visualization</title> <!-- Updated title -->
+  <title>Labor Market Trends Analyzer</title>
+
+  <!-- Bootstrap framework CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin="" />
-  <!-- Our CSS -->
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
-</head>
-<body>
-  <!-- The div that holds our map -->
-  <div id="map"></div>
-  <!-- Leaflet JS -->
+
+  <!-- Leaflet JavaScript code-->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""></script>
-  <!-- D3 JavaScript -->
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
+
+  <!-- D3 library -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
-  <!-- Our JavaScript -->
-  <script type="text/javascript" src="static/js/logic.js"></script>
+
+  <!-- leaflet-choropleth JavaScript -->
+  <script type="text/javascript" src="static/js/choropleth.js"></script>
+
+  <!-- Plotly library -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 p-1 text-center bg-light">
+        <h1>Labor Market Trends Analyzer</h1>
+        <p>Modeling the reduction of the labor market under the conditions of implementing AI in various industries.</p>
+      </div>
+    </div>
+    <p style="height: 10px;" /p>
+    <div class="row card-body bg-light p-1">
+      <div class="col-md-3">
+        <h6>Area:</h6>
+        <select id="selArea"></select>
+      </div>
+      <div class="col-md-4">
+        <h6>Industry:</h6>
+        <select id="selIndustry"></select>
+      </div>
+      <div class="col-md-2">
+        <h6>Reduction:</h6>
+        <select id="selReduction">
+          <option value="5">5 %</option>
+          <option value="10">10 %</option>
+          <option value="15">15 %</option>
+          <option value="20">20 %</option>
+          <option value="25">25 %</option>
+        </select>
+      </div>
+    </div>
+    <p style="height: 5px;" /p>
+    <div class="row p-1">
+      <div class="col-md-7">
+        <div class="card card-primary">
+          <div class="card-header">
+            <h5 class="card-title" id="map-employment-title">Change in employment (over population) for "1011 - National resources and mining"</h5>
+          </div>
+          <div id="map-employment" style="height: 400px;"></div>
+        </div>
+        <p style="height: 10px;" /p>
+        <div class="card card-primary">
+          <div class="card-header">
+            <h5 class="card-title" id="map-income-title">Change in income (over population) for "1011 - National resources and mining"</h5>
+          </div>
+          <div id="map-income" style="height: 400px;"></div>
+        </div>
+        <p style="height: 10px;" /p></p>
+        <div class="col-md-12 p-1 text-left bg-light" id="metric-description">
+          <p><i>&copy; Statistics of employment and wages by industries and unemployment is provided by <a href=\"https://www.bls.gov/\">U.S. Bureau of Labor Statistics</a></i></p>
+          <p><i>&copy; Statistics of income and population is provided by <a href=\"https://www.bea.gov/\">Bureau of Economic Analysis (U.S. Department of Commerce)</a></i></p>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="card card-primary">
+          <div class="card-header">
+            <h5 class="card-title" id="line-chart-title">Change in employment (over population) for "1011 - National resources and mining" trend over time</h5>
+          </div>
+          <div id="line-chart" style="width: 100%; height: 305px;"></div>
+        </div>
+        <p style="height: 10px;" /p>
+        <div class="card card-primary">
+          <div class="card-header">
+            <h5 class="card-title" id="bar-chart-title">Area with highest unemployment (over population) after change for "1011 - National resources and mining"</h5>
+          </div>
+          <div id="bar-chart"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main logic -->
+  <script src="./static/js/logic.js"></script>
+
 </body>
 </html>
